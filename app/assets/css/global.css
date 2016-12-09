@@ -1446,3 +1446,47 @@ body {
             -ms-transform: rotate(15deg);
                 transform: rotate(15deg);
         margin-right: 2px; }
+    body .rosto .caixa-bigode {
+      width: 150px;
+      overflow: hidden;
+      position: relative;
+      margin: 0 auto;
+      top: -42px;
+      z-index: -1; }
+      body .rosto .caixa-bigode:before {
+        content: "";
+        width: 30px;
+        height: 20px;
+        background: #fff152;
+        position: absolute;
+        left: 50%;
+        z-index: 1;
+        margin-left: -15px;
+        top: 35px;
+        border-radius: 41px 42px 46px 60px; }
+    body .rosto .bigode {
+      background: #211f2c;
+      width: 63px;
+      height: 84px;
+      border-radius: 50%;
+      -webkit-transform: rotate(85deg);
+          -ms-transform: rotate(85deg);
+              transform: rotate(85deg);
+      position: relative; }
+      body .rosto .bigode.esquerda {
+        float: left;
+        margin-left: 11px; }
+      body .rosto .bigode.direita {
+        float: right;
+        margin-right: 9px; }
+      body .rosto .bigode:before {
+        content: "";
+        background: #fff152;
+        width: 63px;
+        height: 84px;
+        border-radius: 50%;
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+        position: absolute;
+        margin-left: -8px; }
