@@ -1,5 +1,5 @@
 # Boilerplate
-> Boilerplate front-end for development using HTML, SASS and Gulp
+> Boilerplate front-end for development using HTML, SASS, Bootstrap and Gulp
 
 This boilerplate was inspired by [FastShell](https://hosseinkarami.com/fastshell/).
 
@@ -9,6 +9,7 @@ This boilerplate was created with the aim of speeding up the development of HTML
 **Tools used:**
 - Gulp
 - Sass
+- Bootstrap
 
 ## Tasks
 Here are the list of available gulp tasks:
