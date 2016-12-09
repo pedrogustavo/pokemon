@@ -1427,3 +1427,22 @@ body {
         height: 20px;
         position: absolute;
         margin-top: -5px; }
+    body .rosto .bochecha {
+      background: #f26b4e;
+      width: 66px;
+      height: 81px;
+      margin-top: -26px;
+      position: relative;
+      border-radius: 50%; }
+      body .rosto .bochecha.esquerda {
+        float: left;
+        -webkit-transform: rotate(-15deg);
+            -ms-transform: rotate(-15deg);
+                transform: rotate(-15deg);
+        margin-left: 2px; }
+      body .rosto .bochecha.direita {
+        float: right;
+        -webkit-transform: rotate(15deg);
+            -ms-transform: rotate(15deg);
+                transform: rotate(15deg);
+        margin-right: 2px; }
