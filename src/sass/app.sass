@@ -1,0 +1,54 @@
+$larguraOlho: 60px
+
+body
+  background: #fff152
+
+  .rosto
+    width: 390px
+    margin: 100px auto 0
+    overflow: hidden
+
+    .olho
+      width: $larguraOlho
+      height: $larguraOlho + 6
+      background: #231f20
+      border-radius: 50%
+      margin-top: 105px
+      position: relative
+
+      &.esquerda
+        float: left
+        transform: rotate(30deg)
+        margin-left: 76px
+
+      &.direita
+        float: right
+        transform: rotate(-30deg)
+        margin-right: 76px
+
+      .iris
+        background: #3e2a21
+        width: $larguraOlho - 35
+        height: $larguraOlho - 35
+        border-radius: 50%
+        position: absolute
+        top: 25px
+        left: 50%
+        margin-left: -12.5px
+
+      .pupila
+        background: #fffdff
+        border-radius: 50%
+        width: 20px;
+        height: 25px
+        position: absolute
+        top: -18px
+
+      &.esquerda
+        .pupila
+          left: 3px
+
+      &.direita
+        .pupila
+          left: -3px
+
