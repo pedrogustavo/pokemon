@@ -1,4 +1,4 @@
-# Pokemon
+# Pokemon (In development)
 > Faces of Pokémon in CSS
 
 Using [Boilerplate](https://github.com/pedrogustavo/boilerplate) created by [@pedrogustavo](https://github.com/pedrogustavo).
