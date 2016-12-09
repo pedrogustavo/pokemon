@@ -13,20 +13,24 @@ This boilerplate was created with the aim of speeding up the development of HTML
 ## Tasks
 Here are the list of available gulp tasks:
 
+
 Default
 ```
 gulp
 ```
+
 
 Just compile the sass in css
 ```
 gulp css
 ```
 
+
 Just compile the javascript
 ```
 gulp js
 ```
+
 
 
 Publish to Github Pages
