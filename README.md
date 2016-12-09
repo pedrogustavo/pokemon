@@ -1,40 +1,11 @@
-# Boilerplate
-> Boilerplate front-end for development using HTML, SASS, Bootstrap and Gulp
+# Pokemon
+> Faces of Pokémon in CSS
 
-This boilerplate was inspired by [FastShell](https://hosseinkarami.com/fastshell/).
-
-This boilerplate was created with the aim of speeding up the development of HTML projects. Just clone the repository and install its dependencies using `npm i`.
+Using [Boilerplate](https://github.com/pedrogustavo/boilerplate) created by [@pedrogustavo](https://github.com/pedrogustavo).
 
 
-**Tools used:**
-- Gulp
-- Sass
-- Bootstrap
+Drawings of pokemon faces only with css.
 
-## Tasks
-Here are the list of available gulp tasks:
+**In development**
 
-
-Default
-```
-gulp
-```
-
-
-Just compile the sass in css
-```
-gulp css
-```
-
-
-Just compile the javascript
-```
-gulp js
-```
-
-
-
-Publish to Github Pages
-```
-gulp ghpages
-```
+To view, access: https://pedrogustavo.github.io/pokemon/
